@@ -1,0 +1,300 @@
+:root {
+    --black: #2a2b2c;
+    --white: #ffffff;
+    --gray: #dedede;;
+    --gray-light: #6a696b;
+    --pink--neon: #ff00ff;
+    --lazur: #4aeadc;
+}
+
+* {
+    transition: all .2s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+header .logo .school_logo img {
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 2px solid var(--white);
+    width: 80px;
+    height: 80px;
+}
+
+header .container {
+    width: 100%;
+    width: 1200px;
+    height: 109.5px;
+    background: url(./images/bg-header.png);
+}
+
+header .logo .school_logo{
+    width: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+header .container p {
+   font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+header .container .director {
+    width: 100%;
+    width: 1200px;
+    height: 100px;
+  
+}
+
+
+
+
+header .container .director img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border: 1.5px solid var(--pink--neon);
+
+}
+
+/* ====================NARA SIMONYANI TEXT@==================== */
+header .container .director_text  {
+    width: 100%;
+    width: 1200px;
+    height: 160px;
+    border-bottom: 2px solid var(--pink--neon);
+}
+
+header .container .director_text .text1 {
+    margin-left: 340px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+header .container .director_text .text2 {
+    margin-left: 390px;
+    margin-top: 0px;
+}
+
+/* ====================== verevi barer@ =========================*/
+
+header nav{
+    width: 1200px;
+    height: 50px;
+    
+}
+header .nav_link {
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color:var(--white) ;
+    margin-left: 14rem;
+    margin-bottom: 40px;
+  
+    font-size: 20px;
+    font-family: 'latoregular';
+
+    align-items: center;
+}
+
+header .nav_link:hover {
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--white);
+    font-weight: bold;
+}
+
+/* ====================================================================== */
+
+.info .school_photo {
+    width: 500px;
+    height: 370px;
+    border-radius: 1%;
+    margin-top: 100px;
+    margin-left: 625px;
+    border: 1px solid var(--gray-light);
+    
+}
+
+
+header .container  {
+    width: 100%;
+    
+}
+
+/* =========text============= */
+header  .container h2 {
+    margin-top: 150px;
+    margin-left: 250px;
+    font-weight: bold;    
+    font-family: 'latoregular';
+}
+
+header  .container h1 {
+    font-family: 'latoregular';
+    
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 100px;
+}
+
+header .container p {
+    margin-left: 260px;
+    font-family: 'Prompt', sans-serif;
+}
+/* ======================= */
+
+.info {
+    width: 100%;
+}
+
+.info h1 {
+    font-family: 'latoregular';
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--black);
+    margin-left: 440px;
+    margin-top: 200px;
+}
+
+.info{
+    width: 100%;
+    width: 1200px;
+    height: 1300px;
+    border-bottom: 2px solid var(--pink--neon);
+}
+
+.info .arm {
+    font-family: 'Noto Sans Armenian', sans-serif;
+    margin-left: 480px;
+    margin-top: 100px;
+    display: flex;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+
+.info .parajyanov {
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    float: left;
+
+}
+
+.info .text_aboutus {
+    width: 100%;
+    width: 1000px;
+    height: 500px;
+}
+
+.info .text_aboutus p{
+    margin-top: 30px;
+}
+
+/* ===========================================NEWS=================================== */
+
+.news .container .text_news {
+    font-family: 'latoregular';
+    text-transform: uppercase;
+    font-size: 40px;
+    color: var(--black);
+    margin-left: 480px;
+    margin-top: 70px;
+}
+
+
+.news .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+ 
+}
+
+.news .boxes .box a{
+    color: var(--black);
+}
+
+.news .boxes .box{
+    width: 30%;
+    margin-left: 10px;
+}
+
+.news .boxes .box img {
+    width: 100%;
+    
+}
+
+.news .boxes .gap {
+    width: 1500px;
+    height: 70px;
+    border-bottom: 2px solid var(--pink--neon);
+}
+
+
+/* =====================c0ntact================ */
+
+footer {
+    background: url(./images/bg-header.png);
+    width: 2000px;
+    height: 100px;
+    margin-top: -105px;
+}
+
+.contact_us .container{
+    width: 00px;
+    height: 0px;
+    
+}
+
+.contact {
+    width: 100%;
+    width: 100px;
+    margin-top: 640px;
+    margin-left: -300px;
+    text-align: center;
+}
+
+.contact_us  .container .contact a {
+    width: 400px;
+    height: 300px;
+    width: 100%;
+}
+
+footer .container .contact span {
+    color: var(--white);
+}
+
+footer .container .phone_number a{
+    color: var(--white);
+    
+}
+
+footer .container .phone_number {
+    margin-left: 500px;
+
+    margin-top: -10px;
+}
