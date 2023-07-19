@@ -182,14 +182,14 @@ header .container span {
 .info{
     width: 100%;
     width: 1200px;
-    height: 1300px;
+    height: 690px;
     border-bottom: 2px solid var(--pink--neon);
 }
 
 .info .arm {
     font-family: 'Noto Sans Armenian', sans-serif;
     margin-left: 480px;
-    margin-top: 100px;
+    margin-top: 100p9;
     display: flex;
     text-align: justify;
     text-indent: 30px;
@@ -254,7 +254,7 @@ header .container span {
 }
 
 .news .boxes .gap {
-    width: 1500px;
+    width: 2000px;
     height: 70px;
     border-bottom: 2px solid var(--pink--neon);
 }
@@ -287,6 +287,11 @@ footer {
     width: 400px;
     height: 300px;
     width: 100%;
+}
+
+
+footer {
+    margin-top: -108px;
 }
 
 footer .container .contact span {
